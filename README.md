@@ -3,7 +3,7 @@ Simple C++ app to display the hostname IP Address
 
 ## Compiling hostname
 
-Users on Linux and Windows compile hostname relatively the same. The required files below are needed for compiling the application:
+Users on Linux and Windows compile hostname relatively the same. We recommend using the Cygwin frontend for Windows to compile hostname. The required files below are needed for compiling the application:
 
 * `bash` (Basic shell, used in a majority of major distributions)
 * `g++` (The GNU C++ Chain Compiler)
@@ -28,7 +28,7 @@ File will output into the `build`.
 
 ### Windows:
 
-Make sure the above applications are installed (`g++` is supplied by `gcc-g++`). Then clone the repository:
+Make sure the above applications are installed through Cygwin (`g++` is supplied by `gcc-g++`). Then clone the repository:
 
 ```
 git clone https://github.com/pjgossamer/hostname.git
